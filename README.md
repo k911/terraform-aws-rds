@@ -164,6 +164,7 @@ Available targets:
 | namespace | Namespace (e.g. `eg` or `cp`) | string | - | yes |
 | option_group_name | Name of the DB option group to associate | string | `` | no |
 | parameter_group_name | Name of the DB parameter group to associate | string | `` | no |
+| performance_insights_enabled | Specifies whether Performance Insights are enabled. | string | `false` | no |
 | publicly_accessible | Determines if database can be publicly available (NOT recommended) | string | `false` | no |
 | security_group_ids | The IDs of the security groups from which to allow `ingress` traffic to the DB instance | list | `<list>` | no |
 | skip_final_snapshot | If true (default), no snapshot will be made before deleting DB | string | `true` | no |
@@ -328,17 +329,17 @@ Check out [our other projects][github], [follow us on twitter][twitter], [apply 
 |---|---|---|---|---|---|
 
   [osterman_homepage]: https://github.com/osterman
-  [osterman_avatar]: https://github.com/osterman.png?size=150
+  [osterman_avatar]: https://img.cloudposse.com/150x150/https://github.com/osterman.png
   [aknysh_homepage]: https://github.com/aknysh
-  [aknysh_avatar]: https://github.com/aknysh.png?size=150
+  [aknysh_avatar]: https://img.cloudposse.com/150x150/https://github.com/aknysh.png
   [s2504s_homepage]: https://github.com/s2504s
-  [s2504s_avatar]: https://github.com/s2504s.png?size=150
+  [s2504s_avatar]: https://img.cloudposse.com/150x150/https://github.com/s2504s.png
   [drama17_homepage]: https://github.com/drama17
-  [drama17_avatar]: https://github.com/drama17.png?size=150
+  [drama17_avatar]: https://img.cloudposse.com/150x150/https://github.com/drama17.png
   [comeanother_homepage]: https://github.com/comeanother
-  [comeanother_avatar]: https://github.com/comeanother.png?size=150
+  [comeanother_avatar]: https://img.cloudposse.com/150x150/https://github.com/comeanother.png
   [drmikecrowe_homepage]: https://github.com/drmikecrowe
-  [drmikecrowe_avatar]: https://github.com/drmikecrowe.png?size=150
+  [drmikecrowe_avatar]: https://img.cloudposse.com/150x150/https://github.com/drmikecrowe.png
 
 
 

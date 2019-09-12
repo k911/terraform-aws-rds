@@ -269,3 +269,9 @@ variable "kms_key_arn" {
   description = "The ARN of the existing KMS key to encrypt storage."
   default     = ""
 }
+
+variable "performance_insights_enabled" {
+  type        = "string"
+  default     = "false"
+  description = "Specifies whether Performance Insights are enabled."
+}

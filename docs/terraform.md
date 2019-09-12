@@ -37,6 +37,7 @@
 | namespace | Namespace (e.g. `eg` or `cp`) | string | - | yes |
 | option_group_name | Name of the DB option group to associate | string | `` | no |
 | parameter_group_name | Name of the DB parameter group to associate | string | `` | no |
+| performance_insights_enabled | Specifies whether Performance Insights are enabled. | string | `false` | no |
 | publicly_accessible | Determines if database can be publicly available (NOT recommended) | string | `false` | no |
 | security_group_ids | The IDs of the security groups from which to allow `ingress` traffic to the DB instance | list | `<list>` | no |
 | skip_final_snapshot | If true (default), no snapshot will be made before deleting DB | string | `true` | no |
